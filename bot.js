@@ -216,7 +216,7 @@ client.on('message', function(msg) {
             text = co.first().content
 
               message.channel.send(`تم حفظ اقتراحك الرجاء انتضار الرد من قبل الاداره`)
-                client.channels.get("558297515582160897").send(`${message.author.username}'s sug => ${text}`)
+                client.channels.get("563735950266597405").send(`${message.author.username}'s sug => ${text}`)
 
               })
             }
@@ -237,24 +237,78 @@ client.on("message", message => {
 	  
 	       Help Commands: 
 
-			 
-${prefix}public ⥨ الاوامر العامة
+		vn the best	 
+	  
+الاوامــر الــعـــامـــة
 
-${prefix}admin ⥨ اوامر الادارة
-			 
-${prefix}games ⥨ اوامر الالعاب
+⤠ #server ⥨ معلومات عن السيرفر                      
+⤠ #say ⥨ البوت يردد كلامك         
+⤠ #setcolor ⥨ عشان تغير لونك ملاحظة لازم تحط رقم اللون                                          
+⤠ #bot ⥨ معلومات عن البوت
+⤠ #ping ⥨ لمعرفه سرعه البوت
+⤠ #members ⥨ معلومات عن الاعضاء
+⤠ #emojilist ⥨ لعرض الايموجي حقت السيرفر
+⤠ #id ⥨ لمعرفة معلومات حسابك
+⤠ #avatar ⥨ لاعطائك صورة الشخص اللي منشنته مع الرابط
+⤠ #link ⥨ يعطيك رابط انفايت للسيرفر اللي انت فيه
+⤠ #trans <language> <any thing> ⥨ يترجم لك الي تبيه من اي لغة
+⤠ #short ⥨ لاختصار الروابط
+⤠ #embed ⥨ كتابة كلامك داخل امبد
+⤠ #tag ⥨ يكتب لك الكلمة بشكل جميل وكبير
+⤠ #contact ⥨ لارسال رسالة لصاحب البوت
+⤠ #support ⥨ لدخول سيرفر دعم البوت
+		  
+	  
+اوامـــر الادمـــنـــيــــة
 
-${prefix}music ⥨ اوامر الموسيقى
+⤠ #vb ⥨ لمنع الشخص اللي تمنشنه من دخول الرومات الصوتية
+⤠ #unvb ⥨ عشان تفك البان عنه من الرومات الصوتية
+⤠ #ban ⥨ لتبنيد شخص ما من السيرفر
+⤠ #kick ⥨ لتعطي شخص كيك
+⤠ #clearall ⥨ لمسح 300 رسالة بالشات
+⤠ #clear <numb> ⥨ لمسح عدد الرسائل التي تريدها
+⤠ #mute ⥨ لاعطاء شخص ما ميوت مع تحديد وقت الميوت 
+⤠ #mutechannel ⥨ لتقفيل الشات 
+⤠ #unmutechannel ⥨ لفتح الشات 
+⤠ #unmute ⥨ لنزع الميوت من الشخص
+⤠ #hidechannel ⥨ لاخفاء روم معين 
+⤠ #showchannel ⥨ لاظهار روم معين 
+⤠ #ct ⥨ لانشاء روم كتابي مع اختيار الاسم
+⤠ #cv ⥨ لانشاء روم صوتي مع اختيار الاسم 
+⤠ #v2min ⥨ لانشاء روم صوتي مؤقت لدقيقتين
+⤠ #add.r ⥨ لانشاء رتبة مع تحديد الاسم 
+⤠ #delet ⥨ كـود يحذف الـروم سواء صوتي او كتابي
+⤠ #dc ⥨ لمسح جميع الرومات
+⤠ #dr ⥨ لمسح جميع الرولات
+⤠ #bc ⥨ للبرودكاست 
+⤠ #bcrole ⥨ برودكاست لرتبة معينة 
+⤠ #deletall ⥨ لحذف كل الرومات و الرولات من السيرفر 
+⤠ #color ⥨ لانشاء رتب الوان مع اختيار رقم الرتب اللي تبيه
+⤠ #move all ⥨ سحب جميع الأعضاء لرومك الصوتي
+⤠ #roles ⥨ لعرض رولات السيرفر 
+⤠ #rooms ⥨ لعرض رومات السيرفر 
+⤠ #role @user <rank> ⥨ لاعطاء شخص ما رتبة
+⤠ #roleremove @user <rank> ⥨ لنزع رتبة من شخص ما
+⤠ #role all <rank> ⥨ لاعطاء الجميع رتبة
+⤠ #role humans <rank> ⥨ لاعطاء البشريين رتبة 
+⤠ #role bots <rank> ⥨ لاعطاء البوتات رتبة 
+  
 
-Other Commands:
+اوامـــر الالـــعـــاب
 
+⤠ #عشان تعطي الشخص اللي تمنشنه لكمة ⥨ لكمة         
+⤠ #لعبة هل تعلم ⥨ هل تعلم         
+⤠ #rps ⥨ لعبة حجر ورقة مقص  
+⤠ #roll <numb> ⥨ قرعة  
+⤠ #emoji ⥨ لكتابة كلامك بايموجي                  
+⤠ #لعبة اسئلني ⥨ اسئلني                    
+⤠ #لعبة كت تويت ⥨ كت تويت
+⤠ #لعبة لو خيروك ⥨ لو خيروك 
+⤠ #معلومات عن الاسلام ⥨ دين    
+⤠ #يعطيك بعض الاذكار ⥨ اذكار    
 
-${prefix}invite ⥨ لدعوة البوت الى سيرفرك
-
-${prefix}support ⥨ لدخول سيرفر الدعم
-
-رابط البوت:https://discordapp.com/oauth2/authorize?client_id=558298401004060673&permissions=8&scope=bot
-
+====================================
+رابط يعطيك رابط سيرفرك
 	  `)
    message.channel.sendEmbed(embed)
     
@@ -273,7 +327,6 @@ ${prefix}support ⥨ لدخول سيرفر الدعم
 	  
 الاوامــر الــعـــامـــة
 
-⤠ #invite ⥨ لدعوة البوت الى سيرفرك
 ⤠ #server ⥨ معلومات عن السيرفر                      
 ⤠ #say ⥨ البوت يردد كلامك         
 ⤠ #setcolor ⥨ عشان تغير لونك ملاحظة لازم تحط رقم اللون                                          
@@ -330,7 +383,7 @@ client.channels.get("470259562121920512").sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['In 77 Server','*help | *invite','In 77 Server','*help | *invite','In 77 Server'];
+    var setGame = ['VIN','THE','BEST','#help | VIN THE BEST'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -456,11 +509,11 @@ client.on('message', message => {
 
 
 client.on('message', function(message) {
-	const myID = "494130483395821568";
+	const myID = "558220897547452418";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
-            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+            if(!args) return message.reply('اكتب الاسم اللي تريدها.');
         client.user.setUsername(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
            msg.delete(5000);
@@ -468,7 +521,7 @@ client.on('message', function(message) {
         });
     } else if(message.content.startsWith(prefix + "stream")) {
 		        if(message.author.id !== myID) return;
-            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+            if(!args) return message.reply('اكتب الحاله الستريمينق اللي تريدها.');
         client.user.setGame(args , 'https://twitch.tv/6xlez1');
         message.channel.send(':white_check_mark: Done!').then(msg => {
            msg.delete(5000);
@@ -494,7 +547,7 @@ client.on('message', function(message) {
 				        if(message.author.id !== myID) return;
         client.user.setAvatar(args);
         message.channel.send(':white_check_mark: Done!').then(msg => {
-                if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+                if(!args) return message.reply('يجب ان تضع رابط الصوره!!.');
            msg.delete(5000);
           message.delete(5000);
         });
@@ -897,7 +950,7 @@ client.on('message', message => {
    
    client.on('message', message => {
 
-    if (message.content.startsWith("#link")) {        
+    if (message.content.startsWith("رابط")) {        
   message.channel.createInvite({
         thing: true,
         maxUses: 100,
